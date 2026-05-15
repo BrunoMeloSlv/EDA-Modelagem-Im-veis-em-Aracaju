@@ -1,8 +1,3 @@
----
-title: "🏠 Previsão de Preços de Imóveis em Aracaju"
-output: github_document
----
-
 # 🏠 Previsão de Preços de Imóveis em Aracaju
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -79,11 +74,16 @@ Pipeline:
 
 ```python
 log(Price)
+```
+
+--
 
 ## 📈 Resultados
 R²: 0.82
 Boa capacidade de generalização
 Redução do impacto de outliers com log(y)
+
+--
 
 ## 🔍 Análise Exploratória (EDA)
 
@@ -98,6 +98,8 @@ Heatmap
 Insights:
 Forte correlação entre renda do bairro e preço
 Área é uma das variáveis mais relevantes
+
+--
 
 ## 🚀 Aplicação (Streamlit)
 
